@@ -9,7 +9,7 @@
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/bhyeanhasan/projectManager.git
    cd projectManger
    ```
 
@@ -18,6 +18,7 @@
    python3 -m venv venv
    source venv/bin/activate
    ```
+
 3. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
@@ -30,7 +31,9 @@
    ```bash
    python manage.py runserver
     ```
+
 ### API Documentation
+
 Access the interactive Swagger documentation at:
 
 #### Swagger UI: http://localhost:8000/api/docs/
